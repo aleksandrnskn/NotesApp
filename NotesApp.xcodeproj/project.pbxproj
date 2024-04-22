@@ -15,6 +15,7 @@
 		70F30CAF2BD4FF9300EE9323 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F30CAE2BD4FF9300EE9323 /* Note.swift */; };
 		70F30CB12BD4FFB700EE9323 /* NoteCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F30CB02BD4FFB700EE9323 /* NoteCategory.swift */; };
 		70F30CB42BD5030500EE9323 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F30CB32BD5030500EE9323 /* Home.swift */; };
+		70F30CB62BD692B400EE9323 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F30CB52BD692B400EE9323 /* NotesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		70F30CAE2BD4FF9300EE9323 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		70F30CB02BD4FFB700EE9323 /* NoteCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCategory.swift; sourceTree = "<group>"; };
 		70F30CB32BD5030500EE9323 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		70F30CB52BD692B400EE9323 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				70F30CB32BD5030500EE9323 /* Home.swift */,
+				70F30CB52BD692B400EE9323 /* NotesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F30CB62BD692B400EE9323 /* NotesView.swift in Sources */,
 				70F30CB12BD4FFB700EE9323 /* NoteCategory.swift in Sources */,
 				70F30C9F2BD4FF5600EE9323 /* ContentView.swift in Sources */,
 				70F30CA12BD4FF5600EE9323 /* Item.swift in Sources */,
