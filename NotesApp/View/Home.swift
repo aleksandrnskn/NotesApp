@@ -66,7 +66,8 @@ struct Home: View {
                 }
             }
         } detail: {
-            
+            /// Notes View With Dynamic Filtering Based on the Category
+            NotesView(category: selectedTag, allCategories: categories)
         }
         .navigationTitle(selectedTag ?? "Notes")
         /// Adding Category Alert
@@ -119,11 +120,14 @@ struct Home: View {
                 HStack(spacing: 10) {
                     Button("", systemImage: "plus") {
                         /// Adding New Note
+                        let note = Note(content: "")
+                        context.insert(note)
                     }
                     Button("", systemImage: isDark ? "sun.min" : "moon") {
                         /// Dark – Light Mode
                         isDark.toggle()
                     }
+                    .contentTransition(.symbolEffect(.replace))
                 }
             }
         }

@@ -93,7 +93,7 @@ struct NotesView: View {
 struct NoteCardView: View {
     @Bindable var note: Note
     var isKeyboardEnabled: FocusState<Bool>.Binding
-    @State private var showNote: Bool = false
+    @State private var showNote: Bool = true
     var body: some View {
         ZStack {
             Rectangle()
